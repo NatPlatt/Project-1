@@ -1,0 +1,78 @@
+
+.excited {
+Padding-left: 15px;
+Padding-right: 15px;
+Padding-bottom: 45px;
+}
+
+.excited div{
+Padding: 10px;
+Padding-left: 15px;
+Color: #c4f0ff
+}
+
+.info-remainder {
+	Margin-left: 20px;
+	Display: flex;
+	Flex-direction: column;
+	Justify-content: space-between;
+    Flex: 1;
+}
+
+.page-wrap {
+  width: 800px;
+  margin: 0 auto;
+}
+body {
+  background-color: slategrey;
+  color: aliceblue;
+  text-align: left;
+}
+header {
+  text-align: center;
+}
+#group {
+  display: flex;
+}
+#gravatar {
+  height: 150px;
+  width: 150px;
+}
+.info-remainder {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  padding-left: 10px;
+}
+.name-date {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+}
+.reason-list {
+  background-color: #535353;
+  flex: 1;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+ul{
+  padding-left: 15px;
+}
+#badge-choices {
+  display: flex;
+  justify-content: space-between;
+}
+.badges {
+  height: 140px;
+}
+.figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  position: relative;
+  bottom: 30px;
+  padding: 6px;
+  background: rbga(2,2,2,0.7);
+  color: #cdcdcd;
+  text-align: center;
+}
