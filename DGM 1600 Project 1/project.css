@@ -37,6 +37,7 @@ header {
 #gravatar {
   height: 150px;
   width: 150px;
+    border: solid black 2px;
 }
 .info-remainder {
   display: flex;
@@ -51,7 +52,7 @@ header {
   font-size: 25px;
 }
 .reason-list {
-  background-color: #535353;
+  background-color: darkslateblue;
   flex: 1;
   padding-left: 15px;
   padding-right: 15px;
